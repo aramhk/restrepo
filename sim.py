@@ -8,7 +8,7 @@ phone = input("Please enter Phone number:")
 phone = int(phone)
 
 
-PARAMS =  {'uname':'QpT1ErTYqv', 'upass':'PeXOuiiBph','plain':1, 'command':'account' }
+PARAMS =  {'uname':'QWpT1ErThjyfYqv', 'upass':'PBeXOuiiHBph','plain':1, 'command':'account' }
 r= requests.get(url=URL,params=PARAMS)
 print(r.text)
 root = ET.fromstring(r.text)
